@@ -112,15 +112,6 @@ li {
     font-size: 18px;
     margin-bottom: 10px;
 }
-.field {
-    width: 85%;
-    height: 65vh;
-    background-color: var(--header);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 10px;
-}
 .AuthFields-value{
     background-color: #f9f7ed;
     width: 60vw;
