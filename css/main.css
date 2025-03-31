@@ -1,0 +1,64 @@
+@import url('color.css');
+
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 90px;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg_main);
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+h1, h2 {
+    color: var(--h1_main);
+    margin-bottom: 10px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 50%;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.buttons button {
+    font-size: 36px;
+    min-width: 304px;
+    height: 30%;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#order, #supplier {
+    background: var(--button_main);
+    color: white;
+}
+
+#supplier {
+    text-decoration: none;
+}
+
+#order:hover, #supplier:hover{
+    background: var(--button_main_hover);
+}
