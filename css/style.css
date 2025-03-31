@@ -221,6 +221,7 @@ h1 {
     margin-right: 10px;
     white-space: nowrap;
     color: #3b4f17;
+    font-size: 30px
 }
 .field-row input {
     flex-grow: 1;

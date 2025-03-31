@@ -1,17 +1,20 @@
 let isOrder = document.getElementById("order");
 
-let user;
+user;
 
-function openAuth(name){
-    user = name;
+function openAuth(name) {
+    localStorage.setItem("user", name);
     window.location.href = "authorization.html";
 }
 
-function Auth(){
-    if(user == "o")
+function Auth() {
+    let user = localStorage.getItem("user");
+
+    if (user === 'o') {
         window.location.href = "organizations.html";
-    else
+    } else if (user === 's') {
         window.location.href = "orders.html";
+    }
 }
 
 function openMakeOrder(){
@@ -51,7 +54,6 @@ function renderOrganizations() {
         container.appendChild(orgCard);
     });
 }
-
 
 document.addEventListener("DOMContentLoaded", function() {
     renderOrganizations();
