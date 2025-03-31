@@ -98,7 +98,104 @@ li {
     align-items: center;
     /* height: 100vh; */
 }
+.InputFields {
+    background-color: #f9f7ed;
+    padding: 30px;
+    border-radius: 10px;
+    border: 2px solid #166c0c;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+.AuthFields-fill h2 {
+    margin-top: 40px;
+    color: #3c5a16;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.field {
+    width: 85%;
+    height: 65vh;
+    background-color: var(--header);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.AuthFields-value{
+    background-color: #f9f7ed;
+    width: 60vw;
+    height: 60vh;
+}
+h2 {
+    color: #3c5a16;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
 
+input {
+    width: 75%;
+    height: 7vh;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #7d9b5f;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+}
+input:focus {
+    outline: none;
+    background-color: #6c8a54;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    height: 7vh;
+    border-radius: 5px;
+    background-color: #2f4a0f;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #273d0d;
+}
+.EnterAuth-button button {
+    width: 50%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2f4a0f;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 60px;
+}
+.EnterAuth-button button:hover {
+    background-color: #273d0d;
+}
+.StartRegistration-button {
+    position: absolute;
+    bottom: -3px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.StartRegistration-button button {
+    background-color: #f9f7ed;
+    color: #3c5a16;
+    border: 2px solid #3c5a16;
+    padding: 10px 20px;
+}
+
+.StartRegistration-button button:hover {
+    background-color: #e1dfd2;
+}
 /*=========================Order===============================*/
 
 .field {
