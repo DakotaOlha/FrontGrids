@@ -96,7 +96,6 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* height: 100vh; */
 }
 .InputFields {
     background-color: #f9f7ed;

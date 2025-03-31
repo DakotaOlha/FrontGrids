@@ -1,7 +1,21 @@
 let isOrder = document.getElementById("order");
 
+let user;
+
+function openAuth(name){
+    user = name;
+    window.location.href = "authorization.html";
+}
+
+function Auth(){
+    if(user == "o")
+        window.location.href = "organizations.html";
+    else
+        window.location.href = "orders.html";
+}
+
 function openMakeOrder(){
-     window.location.href = "makeOrder.html";
+    window.location.href = "makeOrder.html";
 }
 
 function openOrganizations(){
