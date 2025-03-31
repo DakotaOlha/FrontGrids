@@ -1,7 +1,7 @@
 @import url('color.css');
 
 * {
-    font-family: 'Roboto', sans-serif;
+    font-family: sans-serif;
     box-sizing: border-box
 }
 
@@ -97,6 +97,8 @@ li {
     height: 100vh;
 }
 
+/*=========================Order===============================*/
+
 .field {
     width: 85%;
     height: 65vh;
@@ -106,6 +108,13 @@ li {
     align-items: center;
     border-radius: 10px;
 }
+
+.field-value h1{
+    font-size: 46px;
+    color: var(--bg);
+}
+
+
 
 /*=============================Footer========================*/
 
