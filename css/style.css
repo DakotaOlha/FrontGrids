@@ -101,7 +101,6 @@ li {
     background-color: #f9f7ed;
     padding: 30px;
     border-radius: 10px;
-    border: 2px solid #166c0c;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     text-align: center;
 }
@@ -126,10 +125,8 @@ input {
     height: 7vh;
     padding: 10px;
     margin-bottom: 15px;
-    border: none;
     border-radius: 5px;
     background-color: #7d9b5f;
-    color: #fff;
     font-size: 16px;
     text-align: center;
 }
@@ -141,7 +138,6 @@ input:focus {
 button {
     width: 100%;
     padding: 10px;
-    border: none;
     height: 7vh;
     border-radius: 5px;
     background-color: #2f4a0f;
@@ -157,7 +153,6 @@ button:hover {
 .EnterAuth-button button {
     width: 50%;
     padding: 10px;
-    border: none;
     border-radius: 5px;
     background-color: #2f4a0f;
     color: white;
@@ -178,7 +173,6 @@ button:hover {
 .StartRegistration-button button {
     background-color: #f9f7ed;
     color: #3c5a16;
-    border: 2px solid #3c5a16;
     padding: 10px 20px;
 }
 
@@ -198,7 +192,6 @@ button:hover {
     background-color: #f9f7ed;
     padding: 30px;
     border-radius: 10px;
-    border: 2px solid #166c0c;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     text-align: center;
 }
@@ -247,12 +240,25 @@ button:hover {
 .StartRegistration-button1 button {
     background-color: #f9f7ed;
     color: #3c5a16;
-    border: 2px solid #3c5a16;
     padding: 10px 20px;
 }
 
 .StartRegistration-button1 button:hover {
     background-color: #e1dfd2;
+}
+.field-editable {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    min-height: 20px;
+    width: 100%;
+}
+.field-row-size {
+    border: 1px solid #ccc;
+    padding: 5px;
+    min-width: 50px;
+    display: inline-block;
+    text-align: center;
 }
 /*=========================Order===============================*/
 
