@@ -1,7 +1,5 @@
 let isOrder = document.getElementById("order");
 
-user;
-
 function openAuth(name) {
     localStorage.setItem("user", name);
     window.location.href = "authorization.html";
