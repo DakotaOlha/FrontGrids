@@ -91,10 +91,12 @@ li {
 /*===========================Content=========================*/
 
 .content {
+    margin-top: 110px;
+    margin-bottom: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 /*=========================Order===============================*/
@@ -104,11 +106,14 @@ li {
     padding: 20px;
     border-radius: 10px;
     text-align: center;
-    width: 600px;
+    width: 80vh;
+    min-width: 130vh;
+    min-height: 70vh;   
 }
 h1 {
     text-align: center;
     margin-bottom: 20px;
+    color: var(--bg);
 }
 .field-content {
     display: flex;
@@ -168,109 +173,34 @@ h1 {
 #x {
     margin-left: 10px;
 }
-/* .field {
-    display: flex;
-    flex-direction: column;
+
+/*=========================organizations=====================*/
+
+.organizations {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
     justify-content: center;
     align-items: center;
-    width: 85%;
-    height: 65vh;
-    background-color: #fdfbe9;
-    padding: 20px;
+    padding: 0 20px;
+}
+.org-card {
+    background-color: #314f17;
+    color: white;
+    padding: 30px 20px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    text-align: center;
-}
-
-h1 {
-    margin-bottom: 20px;
-}
-
-.field-content {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-}
-
-.field-value{
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    height: 50vh;
-    width: 70vh;
-    background-color: var(--bg);
-}
-
-.field-fill {
-    display: flex;
-    flex-direction: column;
     text-align: left;
-    width: 60%;
-    padding: 20px 10px;
-}
-.field-fill h4 {
-    margin: 5px 0;
-    font-size: 40px;
-    color: var(--white);
-}
-.field-fill input {
-    width: 90%;
-    padding: 5px;
-    margin-bottom: 10px;
-    border: 1px solid #3b4f17;
-    border-radius: 5px;
-}
-.buttons {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 35%;
-    margin-right: 20px;
-}
-.buttons button {
-    width: 100%;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
-    margin-bottom: 10px;
-    margin-left: 40px;
-}
-.buttons button:first-child {
-    background-color: #84975e;
-    color: white;
-}
-.buttons button:last-child {
-    background-color: #c0392b;
-    color: white;
+    
 }
 
-.field-row {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 10px;
-}
-
-.field-row h4 {
+.ord-card {
+    background-color: #314f17;
+    color: white;
+    padding: 30px 20px;
+    border-radius: 10px;
     text-align: left;
-    margin: 0;
-    color: var(--white);
+    
 }
-
-.field-row input {
-    width: 70%; 
-    padding: 5px;
-    border: 1px solid #3b4f17;
-    border-radius: 5px;
-    margin-left: 20px;
-} */
-
-
 
 /*=============================Footer========================*/
 

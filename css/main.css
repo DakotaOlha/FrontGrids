@@ -30,6 +30,10 @@ h1, h2 {
     margin-bottom: 10px;
 }
 
+h2{
+    margin-bottom: 40px;
+}
+
 .buttons {
     display: flex;
     flex-direction: row;
