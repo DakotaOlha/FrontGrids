@@ -39,7 +39,7 @@ header {
 }
 
 .logo > img {
-    max-height: 50px;
+    max-height: 75px;
 }
 
 header nav {
@@ -59,7 +59,7 @@ header nav {
 
 .other-pages li > a{
     text-decoration: none;
-    color: white;
+    color: var(--bg);
     padding: 12px;
     font-size: 18px; 
     border-radius: 4px;
@@ -78,11 +78,6 @@ header li > a:hover {
     color: #212121;
 }
 
-
-.content {
-    padding-top: 70px;
-}
-
 ul {
     margin: 20px;
     list-style-type: none;
@@ -93,6 +88,25 @@ li {
     margin: 20px;
 }
 
+/*===========================Content=========================*/
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.field {
+    width: 85%;
+    height: 65vh;
+    background-color: var(--header);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
 /*=============================Footer========================*/
 
 footer {
@@ -100,7 +114,6 @@ footer {
     color: white;
     text-align: center;
     padding: 20px 0;
-    margin-top: 30px;
     font-size: 14px;
 }
 
